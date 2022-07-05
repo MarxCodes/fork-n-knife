@@ -1,0 +1,27 @@
+{
+  "name": "fork-n-knife",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarxCodes/fork-n-knife.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarxCodes/fork-n-knife/issues"
+  },
+  "homepage": "https://github.com/MarxCodes/fork-n-knife#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11"
+  }
+}
